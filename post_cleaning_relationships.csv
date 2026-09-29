@@ -1,0 +1,9 @@
+child_table,child_column,parent_table,parent_column,valid_relationship_pct
+vehicles,customer_id,customers,customer_id,100.0
+appointments,customer_id,customers,customer_id,100.0
+appointments,vehicle_id,vehicles,vehicle_id,100.0
+appointments,dealer_id,dealers,dealer_id,100.0
+service_visits,appointment_id,appointments,appointment_id,100.0
+repairs,visit_id,service_visits,visit_id,100.0
+parts,repair_id,repairs,repair_id,100.0
+customer_surveys,visit_id,service_visits,visit_id,100.0

@@ -1,0 +1,12 @@
+table,column,issue_type,affected_rows,severity,recommended_action
+customers,customer_id,Missing Values,100,Medium,Investigate and handle based on business meaning
+parts,part_received_date,Missing Values,300,Medium,Investigate and handle based on business meaning
+customer_surveys,csat_score,Missing Values,250,Medium,Investigate and handle based on business meaning
+customers,customer_id,Duplicate Primary Key,120,High,Remove duplicate records after investigation
+appointments,appointment_date,Appointment Before Booking,100,High,Remove invalid appointment records
+vehicles,customer_id,Invalid Foreign Key,114,High,Remove or correct orphan records
+appointments,customer_id,Invalid Foreign Key,270,High,Remove or correct orphan records
+appointments,dealer_id,Invalid Foreign Key,100,High,Remove or correct orphan records
+repairs,actual_hours,Negative Duration,100,High,Set invalid values to missing and investigate
+repairs,actual_hours,Extreme Outlier,50,Medium,Treat extreme values as invalid/outliers
+repairs,repair_category,Inconsistent Category Labels,300,Medium,Standardize category labels
