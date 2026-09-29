@@ -1,0 +1,3 @@
+experiment_group,customers,delay_rate,avg_csat,complaint_rate
+Control,5580,1.0,3.0885592092917955,0.5621863799283154
+Treatment,5457,1.0,3.296956107334073,0.0

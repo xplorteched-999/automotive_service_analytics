@@ -1,0 +1,2 @@
+metric,control_mean,treatment_mean,absolute_difference,relative_difference_percent,u_statistic,p_value,significant_at_0_05
+CSAT,3.0885592092917955,3.296956107334073,0.20839689804227746,6.7473823203817656,12916237.5,2.7137165894587063e-43,True

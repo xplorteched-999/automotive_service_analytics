@@ -1,0 +1,2 @@
+metric,control_rate,treatment_rate,absolute_difference,chi_square,p_value,significant_at_0_05
+Complaint Rate,0.5621863799283154,0.0,-0.5621863799283154,4283.2968512934485,0.0,True

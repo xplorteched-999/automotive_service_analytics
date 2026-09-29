@@ -1,0 +1,2 @@
+metric,control_rate,treatment_rate,absolute_difference,relative_change_percent,z_statistic,p_value,significant_at_0_05
+Delay Rate,1.0,1.0,0.0,0.0,,,False
